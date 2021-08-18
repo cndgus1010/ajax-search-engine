@@ -17,7 +17,7 @@ var option = {
 	// root: null,
 	// rootMargin: '0px',
 	// threshold: 0
-	// threshold: [0, .25, .5, .75, 1],
+	//threshold: [0, .25, .5, .75, 1],
 }
 observer = new IntersectionObserver(onIntersection, option);
 observer.observe(document.querySelector('.wrapper'));
